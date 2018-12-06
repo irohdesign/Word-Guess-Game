@@ -2,9 +2,14 @@
 //pseudocode
 
 //create an array for all of the letters to be stored in
+possibleLetters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 
 //start this function onkeyup
+
+document.onkeyup = function() {
+    console.log("you pressed a key");
+}
 //computer randomly selects a letter
 
 
