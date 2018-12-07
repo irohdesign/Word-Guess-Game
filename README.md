@@ -1,5 +1,0 @@
-# Word-Guess-Game
-
-//pseudocode//
-
-//

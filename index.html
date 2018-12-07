@@ -6,21 +6,30 @@
 
 <head>
     <title>Word Guess Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/animate.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 </head>
 
 <body>
 
-    <h1>Guess which letter I'm thinking of.</h1>
-    <h5>Bet you can't, loser.</h5>
-
-    <div class="counterDiv" id="winningCounter"></div>
-
-    <div class="counterDiv" id="losingCounter"></div>
-
-    <div id="yourGuesses"></div>
+    <div id="wrapper">
+        <h1>Guess which letter I'm thinking of.</h1>
+        <h2 id="guesses-left">You have 10 chances.</h2>
+    
+        <div class="counterDiv">
+            <h3 id="winning-counter">You've won 0 times.</h3>
+        </div>
+    
+        <div class="counterDiv">
+            <h3 id="losing-counter">You've lost 0 times.</h3>
+        </div>
+    
+        <div id="your-guesses"></div>
+    </div>
 
 
 

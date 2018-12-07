@@ -1,3 +1,39 @@
-* {
-    font-family: 'rubik';
+html {
+    height: 100%;
+    width: 100%;
+    background: #6699cc;
+}
+
+#wrapper {
+    width: 70%;
+    min-height: 400px;
+    padding: 20px;
+    margin: 200px auto;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    font-size: 35px;
+    margin: 15px auto;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 15px auto;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.boring img {
+    display: block;
+    margin: auto;
 }
